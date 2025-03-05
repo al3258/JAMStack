@@ -1,19 +1,16 @@
 ---
 layout: layout.html
-pageTitle: New York Today
+pageTitle: Home
 navTitle: Home
 tags: page
 pageClass: home
 ---
 
-## Articles
+## Amanda's Blog
 
-<button>Show Stories</button>
-<main class="stories"></main>
+{% for post in collections.post %}
 
-{% for page in collections.page %}
-
-<h2> <a href="{{ page.url }}"> {{ page.data.pageTitle | upcase }} </a> </h2>
-<p> {{ page.date | date: "%Y-%m-%d" }} </p>
+<h2> <a href="{{ post.url }}"> {{ post.data.pageTitle | upcase }} </a> </h2>
+<main class="post"></main>
 
 {% endfor %}

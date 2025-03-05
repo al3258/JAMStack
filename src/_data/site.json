@@ -1,3 +1,13 @@
 {
-    "siteTitle": "My First 11ty Site"
+    "siteTitle": "My First 11ty Site",
+    "postTitle": {
+        "explore": "Exploring Good Eats",
+        "passion": "My Passion for Blind Boxes",
+        "welcome": "Welcome to My Blog!"
+    },
+    "postContent": {
+        "explore": "Eating is something that brings me joy. I love all types of Asian cusines from Japanese to Chinese to Thai. Here's a photo of what I had last night.",
+        "passion": "Collecting blind box figures has been one of my biggest passions. I love the rush when I open a box. In this post, I will share some of my favorite blind box figures!",
+        "welcome": "Hi, I'm Amanda! This is my intro blog post. Stay tuned for more interesting stories and updates. I can't wait to share my thoughts with you!"
+    }
 }

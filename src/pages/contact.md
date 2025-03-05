@@ -6,6 +6,7 @@ pageClass: contact
 
 ## Here's how:
 
-- 917 865 5517
+- Email: al3258@nyu.edu
+- Phone: (917) 865-5517
 
 [Home](/)
