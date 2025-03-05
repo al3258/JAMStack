@@ -8,9 +8,12 @@ pageClass: home
 
 ## Articles
 
-> Dorothy followed her through many of the beautiful rooms in her castle.
+<button>Show Stories</button>
+<main class="stories"></main>
 
-A list of articles will appear here
+{% for page in collections.page %}
 
-- bullet one
-- etc
+<h2> <a href="{{ page.url }}"> {{ page.data.pageTitle | upcase }} </a> </h2>
+<p> {{ page.date | date: "%Y-%m-%d" }} </p>
+
+{% endfor %}
