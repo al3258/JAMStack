@@ -8,7 +8,6 @@ pageClass: home
 
 ## Articles
 
-<button>Show Stories</button>
 <main class="stories"></main>
 
 {% for page in collections.page %}
